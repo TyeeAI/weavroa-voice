@@ -1,0 +1,28 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+logs/
+
+# Maven build output
+target/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Package files
+*.jar
+*.war
+*.ear

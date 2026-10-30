@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: weavroa-voice-standalone
+
+server:
+  port: 8080
+
+# ============ voice 模块配置 ============
+weavroa:
+  voice:
+    # 阿里云百炼 DashScope API Key（环境变量注入，请勿硬编码）
+    api-key: ${DASHSCOPE_API_KEY:}
+    base-url: https://dashscope.aliyuncs.com/api/v1
+
+  # ============ LLM 模型注册（供提示词润色使用） ============
+  llm:
+    model:
+      register:
+        TEXT:
+          - name: qwen-plus
+            provider: bailian
+            base-url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+            api-type: openai
+            api-key: ${DASHSCOPE_API_KEY:}
+            supports-streaming: true
+            supports-tool-calls: true
+            max-context-length: 32768
+            max-output-length: 8192
