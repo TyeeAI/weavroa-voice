@@ -12,6 +12,10 @@
 
 内置对话模型接入层（`com.eniac.weavroa.llm`），基于 OpenAI 兼容协议，可通过配置注册任意兼容模型，用于提示词润色等对话场景。
 
+## 前端界面
+
+配套 Web 前端位于 [`frontend/`](./frontend)，提供声音设计与声音克隆的可视化操作页面，内置 TTS 试听播放器，详见 [frontend/README.md](./frontend/README.md)。
+
 ## 快速开始
 
 ### 环境要求
