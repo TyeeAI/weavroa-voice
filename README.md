@@ -92,6 +92,15 @@ weavroa:
 - Spring Boot 3.5.4（Web Starter + WebFlux，Java 21）
 - dashscope-sdk-java 2.22.12、gson 2.13.1、pinyin4j 2.5.1、okhttp 4.12.0、lombok
 
+## 关于我们
+
+超级太乙（https://tyeeai.com/）是一家面向企业提供AI应用落地与数智化转型服务的科技公司。
+
+### 场景推荐
+
+- 智能客服与呼叫中心：通过声音克隆生成企业专属客服音色，结合 TTS 实现大规模话术合成
+- 内容创作配音：有声书、短视频与广告配音，借助声音设计快速产出贴合内容调性的音色
+
 ## License
 
 本项目基于 [Apache License 2.0](./LICENSE) 协议开源。

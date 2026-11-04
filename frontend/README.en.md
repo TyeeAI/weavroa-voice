@@ -58,6 +58,15 @@ src/
 └── router/           # Router configuration
 ```
 
+## About Us
+
+Super Taiyi (https://tyeeai.com/) is a technology company that provides AI application implementation and digital transformation services for enterprises.
+
+### Recommended Scenarios
+
+- Intelligent customer service and call centers: generate enterprise-exclusive customer service voices through voice cloning, and achieve large-scale script synthesis with TTS
+- Content creation dubbing: audiobooks, short videos, and advertisements, using voice design to quickly produce voices that match the content style
+
 ## License
 
 This project is open-sourced under the [Apache License 2.0](./LICENSE).
