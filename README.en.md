@@ -2,6 +2,15 @@
 
 Voice capability service providing **Text-to-Speech (TTS)**, **Voice Cloning**, and **Voice Design**. It can be run, packaged, and deployed independently.
 
+## About Us
+
+Super Taiyi (https://tyeeai.com/) is a technology company that provides AI application implementation and digital transformation services for enterprises.
+
+### Recommended Scenarios
+
+- Intelligent customer service and call centers: generate enterprise-exclusive customer service voices through voice cloning, and achieve large-scale script synthesis with TTS
+- Content creation dubbing: audiobooks, short videos, and advertisements, using voice design to quickly produce voices that match the content style
+
 ## Features
 
 | Capability | Description |
@@ -91,15 +100,6 @@ All keys are injected via environment variables. The code and configuration cont
 
 - Spring Boot 3.5.4 (Web Starter + WebFlux, Java 21)
 - dashscope-sdk-java 2.22.12, gson 2.13.1, pinyin4j 2.5.1, okhttp 4.12.0, lombok
-
-## About Us
-
-Super Taiyi (https://tyeeai.com/) is a technology company that provides AI application implementation and digital transformation services for enterprises.
-
-### Recommended Scenarios
-
-- Intelligent customer service and call centers: generate enterprise-exclusive customer service voices through voice cloning, and achieve large-scale script synthesis with TTS
-- Content creation dubbing: audiobooks, short videos, and advertisements, using voice design to quickly produce voices that match the content style
 
 ## License
 

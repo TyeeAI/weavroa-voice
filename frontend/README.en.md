@@ -2,6 +2,15 @@
 
 Web frontend for the weavroa voice capability, providing two visual pages for **Voice Design** and **Voice Cloning**, with a built-in Text-to-Speech (TTS) preview player.
 
+## About Us
+
+Super Taiyi (https://tyeeai.com/) is a technology company that provides AI application implementation and digital transformation services for enterprises.
+
+### Recommended Scenarios
+
+- Intelligent customer service and call centers: generate enterprise-exclusive customer service voices through voice cloning, and achieve large-scale script synthesis with TTS
+- Content creation dubbing: audiobooks, short videos, and advertisements, using voice design to quickly produce voices that match the content style
+
 ## Features
 
 | Page | Description |
@@ -57,15 +66,6 @@ src/
 │   └── voicedesign/  # Voice design page
 └── router/           # Router configuration
 ```
-
-## About Us
-
-Super Taiyi (https://tyeeai.com/) is a technology company that provides AI application implementation and digital transformation services for enterprises.
-
-### Recommended Scenarios
-
-- Intelligent customer service and call centers: generate enterprise-exclusive customer service voices through voice cloning, and achieve large-scale script synthesis with TTS
-- Content creation dubbing: audiobooks, short videos, and advertisements, using voice design to quickly produce voices that match the content style
 
 ## License
 
